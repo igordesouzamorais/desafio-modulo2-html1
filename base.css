@@ -60,3 +60,21 @@ body {
     line-height: 150px;
     margin: 0 auto;
 }
+
+.content table {
+    text-align: left;
+    border: solid 1px #ccc;
+}
+
+.content table caption {
+    font-size: 25px;
+}
+
+.content table thead tr th {
+    background-color: black;
+    color: white;
+}
+
+.content table tbody tr:nth-child(even) td {
+    background-color: #ccc;
+}
