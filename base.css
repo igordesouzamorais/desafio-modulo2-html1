@@ -24,7 +24,7 @@ body {
     padding: 10px 20px 0px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: #eee;
     min-height: 150px;
 }
 .content {
@@ -33,6 +33,30 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: #eee;
     min-height: 150px;
+}
+
+
+.menu ul li{
+    list-style-type: none;
+    height: 50px;
+    font-family: Tahoma;
+    font-size: 15px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+}
+
+.header img {
+    float: left;
+    width: 150px;
+}
+
+.header h1 {
+    float: left;
+    height: 150px;
+    line-height: 150px;
+    margin: 0 auto;
 }
